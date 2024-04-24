@@ -51,19 +51,19 @@
     </div>
 
     <script>
-        var sound1 = new buzz.sound("sound/sound1.mp3");
-        var sound2 = new buzz.sound("sound/sound3.mp3");
-        var sound3 = new buzz.sound("sound/sound4.mp3");
+        var sound1 = new buzz.sound("SOUND/sound1.mp3");
+        var sound2 = new buzz.sound("SOUND/sound3.mp3");
+        var sound3 = new buzz.sound("SOUND/sound4.mp3");
 
         window.onload = function() {
             document.getElementById('image1').addEventListener('mouseover', function () {sound1.play();});
-            document.getElementById('image1').addEventListener('mousedown', function () {sound3.play();});
+       
 
             document.getElementById('image2').addEventListener('mouseover', function () {sound2.play();});
-            document.getElementById('image2').addEventListener('mousedown', function () {sound1.play();});
+          
 
             document.getElementById('image3').addEventListener('mouseover', function () {sound3.play();});
-            document.getElementById('image3').addEventListener('mousedown', function () {sound2.play();});
+ 
                 }
     </script>
 
